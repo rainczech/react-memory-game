@@ -1,8 +1,27 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Score from "./components/Score";
+import images from "./images.json";
+import Image from "./components/Image";
 
 class App extends Component {
+  render() {
+    return (
+      {Image}
+      // {images.map(image => (
+      //   <Image
+      //   url={image.url}
+      //   id={image.id}
+      //   alt={image.alt}
+      // ))}
+    )
+  }
+
+
+
+
+  // boiler code
   render() {
     return (
       <div className="App">
