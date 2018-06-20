@@ -12,13 +12,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      
       {images.map(function(image, index){
         return(
           <div key = {image.id}><img src={image.url} alt={image.alt}/>
-          </div>
-        )
-      })
+          </div> 
+      )})
     }
+  
       </div>
       
       // {images.map(image => (
