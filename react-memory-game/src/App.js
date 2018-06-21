@@ -3,6 +3,7 @@ import './App.css';
 import images from "./images.json";
 import GameArea from "./components/GameArea";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 class App extends Component {
   componentDidMount(){
@@ -13,6 +14,7 @@ class App extends Component {
       <div>
         <Nav />
         <GameArea/>
+        <Footer/>
       </div>
     )
   }
