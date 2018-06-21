@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import images from "./images.json";
 import GameArea from "./components/GameArea";
+import Nav from "./components/Nav";
 
 class App extends Component {
   componentDidMount(){
@@ -9,7 +10,10 @@ class App extends Component {
   }
   render() {
     return (
+      <div>
+        <Nav />
         <GameArea/>
+      </div>
     )
   }
 
