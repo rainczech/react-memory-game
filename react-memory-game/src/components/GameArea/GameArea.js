@@ -19,6 +19,10 @@ class GameArea extends Component {
     });
   }
 
+  imageOnClick = (id) => {
+    console.log("I've been clicked!");
+  }
+
   // JSX GOES HERE
   render() {
     return (
