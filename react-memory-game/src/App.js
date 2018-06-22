@@ -16,7 +16,6 @@ class App extends Component {
     let currentImagesArr = this.state.images;
     const imageClicked = currentImagesArr[currentImagesArr.findIndex(image => id ===image.id)];
     console.log("I've been clicked!");
-    currentScoreIncrement ();
   }
  
 

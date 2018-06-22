@@ -4,7 +4,7 @@ import Score from "../Score";
 
 const Nav = () => (
     <nav className="navbar">
-        <div clasName="container">
+        <div className="container">
         <h1>Puppy Memory Game</h1>
         <p></p>
         </div>
