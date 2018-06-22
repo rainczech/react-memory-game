@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "./Score.css";
 
 class Score extends Component {
     // State goes here
@@ -16,10 +17,10 @@ class Score extends Component {
     // JSX goes here
     render(){
         return (
-            <span>
+            <div className="row container">
             <p>Current Score: {this.state.currentScore}</p>
             <p>High Score: {this.state.highScore}</p>
-            </span>
+            </div>
         )
             
         

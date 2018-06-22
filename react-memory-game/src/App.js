@@ -4,15 +4,18 @@ import images from "./images.json";
 import GameArea from "./components/GameArea";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Score from "./components/Score"
 
 class App extends Component {
   componentDidMount(){
-    console.log("Images are ", images)
+    console.log("Images are ", images);
+
   }
   render() {
     return (
       <div>
         <Nav />
+        <Score />
         <GameArea/>
         <Footer/>
       </div>
