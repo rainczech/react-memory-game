@@ -1,7 +1,9 @@
 footer {
     background-color: grey;
+    height: 14px;
 }
 
 h5 {
-    font-size: 14px;
+    font-size: 10px;
+    vertical-align: middle;
 }

@@ -11,6 +11,17 @@ class App extends Component {
     console.log("Images are ", images);
 
   }
+// when an image is clicked
+  imageOnClick = (id) => {
+    let currentImagesArr = this.state.images;
+    const imageClicked = currentImagesArr[currentImagesArr.findIndex(image => id ===image.id)];
+    console.log("I've been clicked!");
+  }
+
+
+
+
+  // JSX
   render() {
     return (
       <div>
