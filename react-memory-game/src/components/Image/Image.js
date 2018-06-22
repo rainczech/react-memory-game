@@ -8,6 +8,11 @@ class Image extends Component {
     console.log(this.props.id);
   }
 
+
+
+
+
+    // JSX
   render(){
     const boxStyle = {
         backgroundImage: `url(${this.props.image})`

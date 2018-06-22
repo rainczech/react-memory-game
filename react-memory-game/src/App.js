@@ -11,8 +11,8 @@ class App extends Component {
     console.log("Images are ", images);
 
   }
-// when an image is clicked
- 
+
+  
  
 
 

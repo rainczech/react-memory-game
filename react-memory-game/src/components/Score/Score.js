@@ -7,7 +7,7 @@ class Score extends Component {
         currentScore: 0,
         highScore: 0
     }
-    // method
+    // methods
     componentDidMount() {
         this.setState({
             currentScore: 0,
