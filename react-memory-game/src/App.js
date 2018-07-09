@@ -1,34 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import images from "./images.json";
-import GameArea from "./components/GameArea";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
-import Score from "./components/Score"
-
-class App extends Component {
-  componentDidMount(){
-    console.log("Images are ", images);
-
-  }
-
-  
- 
+import Game from "./components/Game";
 
 
-
-  // JSX
-  render() {
-    return (
-      <div>
-        <Nav />
-        <Score />
-        <GameArea/>
-        <Footer/>
-      </div>
-    )
-  }
-
-}
+const App = () => <Game />;
 
 export default App;
